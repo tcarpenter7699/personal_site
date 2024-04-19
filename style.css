@@ -1,0 +1,125 @@
+/*HOME*/
+html{
+    height: 100vh;
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+nav{
+    background-color:darkslateblue;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+#navLeft, #navRight{
+    position: absolute;
+    height: 50px;
+}
+
+#navLeft {
+    left: 0;
+    font-size: 40px;
+    margin-left: 10px;
+    color: white;
+}
+
+#navRight {
+    right: 0;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: darkgrey;
+    margin-top: 30px;
+    min-height: 100vh;
+}
+
+#block1{
+    height: 500px;
+    width: 400px;
+    align-self: center;
+}
+
+#block2{
+   text-align: center;
+}
+
+#block3{
+    text-align: center;
+    font-size: 23px;
+}
+
+#block4{
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+/*ABOUT*/
+h2 {
+    margin-left: 10px;
+}
+
+#block5{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#block6, #block7, #block8{
+    height: 500px;
+}
+
+#block6 img, #block7 img, #block8 img{
+    height: 350px;
+    width: 550px;
+    margin: 0 auto;
+    display: block;
+}
+
+#block6 p, #block7 p, #block8 p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+/*PORTFOLIO*/
+#box_container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+}
+  
+.box1, .box2, .box3 {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 img, .box2 img, .box3 img {
+    height: 125px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+
+
+
